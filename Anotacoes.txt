@@ -1,0 +1,28 @@
+CRIAÇÃO FAST API
+
+INSTALAÇÃO 
+
+python -m venv .venv
+.venv\Scripts\activate
+pip install --upgrade pip
+pip install fastapi uvicorn
+
+RODAR SERVIDOR:
+
+uvicorn main:app --reload
+
+-----------------------------------------------------------------------------------------
+
+CRIANDO UMA API COM NODE.JS + EXPRESS
+
+INSTALAÇÃO
+
+npm init -y
+npm install express
+
+RODAR SERVIDOR
+
+node index.js
+
+SAI DO venv
+deactivate
